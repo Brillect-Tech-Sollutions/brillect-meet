@@ -1,0 +1,33 @@
+{
+  "name": "brillect-meet",
+  "version": "1.0.0",
+  "description": "Video Conferencing WebApp using WebRTC, Socket.io and NodeJS",
+  "main": "src/index.js",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^3.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "watch": "nodemon --watch \"src/\" --exec \"node src/index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brillect-Tech-Sollutions/brillect-meet.git"
+  },
+  "keywords": [
+    "VideoChat",
+    "Live"
+  ],
+  "author": "Harishankar Dubey <harishankardubey2911@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brillect-Tech-Sollutions/brillect-meet/issues"
+  },
+  "homepage": "https://github.com/Brillect-Tech-Sollutions/brillect-meet#readme"
+}
